@@ -1,4 +1,4 @@
-find /home/usuario -name "*.txt" -exe tar rvf archivocomprimido.tar {}\;
+find /home/usuario -name "*.txt" -exec tar rvf archivocomprimido.tar {}\;
 
 git add .
 git commit -m "prueba"
